@@ -18,7 +18,7 @@ Overall the goal is to practice open-ended performance engineering, must like wh
 
 The staff has selected the following kernels as options for the project. You can work on trying to optimize one or more of these kernels.  Please click on the links below to learn more about them.
 
-You can also view the performance of the best solutions from the class on the class leaderboards. (See Ed for a link to the leaderboards.)
+You can also view the performance of the best solutions from the class on the class leaderboards. (Leaderboards will be released shortly.)
 
 * [Histogram](problems/histogram)
 * [1d-occupancy-decoder](problems/1d-occupancy-decoder)
