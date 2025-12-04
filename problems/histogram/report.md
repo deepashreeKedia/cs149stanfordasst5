@@ -27,4 +27,15 @@
 
 ---
 
+L1 cache hit rate: 0% (cache thrashing from global atomics)
+Compute throughput: 9.97% (memory-bound)
+SM busy: 7.16% (low utilization)
+
+0% L1 cache hit rate: per-block privatization reduces contention on the same memory locations
+9.97% compute throughput: fewer atomic operations reduce serialization
+7.16% SM busy: better parallelism with reduced contention
+The two-phase approach:
+Phase 1: Each block writes to its own memory region (reduces atomic contention)
+Phase 2: Simple reduction without atomics (faster than atomic operations)
+
 
